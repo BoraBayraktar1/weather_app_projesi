@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c998d1952c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+        <!-- lokasyonlar -->
+        <div class="locations">
+            <button>London</button>
+            <button>Sydney</button>
+            <button>Istanbul</button>
+            <button>Tokyo</button>
+            <button>Paris</button>
+        </div>
+
+        <!-- arama alanı -->
+        <div class="search">
+            <form>
+                <input placeholder="Şehir aratın" type="text">
+
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button id="locBtn" type="button"><i class="fa-solid fa-location-dot"></i></button>
+            </form>
+
+            <div>
+                <span>°C</span>
+                /
+                <span>°F</span>
+            </div>
+        </div>
+
+        <!-- bilgi alanı -->
+        <p class="date">
+            <span>Saturday, 30 Dec 2023</span>
+            |
+            <span>Lokal Saat: 05:59 PM</span>
+        </p>
+
+        <h3 class="city">İzmir,TR</h3>
+
+        <p class="status">Yağmurlu</p>
+
+        <div class="info">
+            <div class="icon">
+                <img src="">
+            </div>
+
+            <div class="degree">
+                <span>17°</span>
+            </div>
+
+            <div class="info-area">
+                <p>
+                    <i class="fa-solid fa-temperature-three-quarters"></i>
+                    <span>Hissedilen:</span>
+                    <span class="feel">15°</span>
+                </p>
+                <p>
+                    <i class="fa-solid fa-droplet"></i>
+                    <span>Nem:</span>
+                    <span class="hum">45%</span>
+                </p>
+                <p>
+                    <i class="fa-solid fa-wind"></i>
+                    <span>Rüzgar:</span>
+                    <span class="wind">2 km/h</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div>
+                <i class="fa-solid fa-sun"></i>
+                <span>Doğuş:</span>
+                <span id="rise">10:00</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-moon"></i>
+                <span>Batış:</span>
+                <span id="set">10:00</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-up-long"></i>
+                <span>Yüksek:</span>
+                <span id="max">10:00°</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-down-long"></i>
+                <span>Düşük:</span>
+                <span id="min">10:00°</span>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
