@@ -1,3 +1,4 @@
 # weather_app_projesi
 Bu proje html, css ve js kullanarak yaptığım bir web sitesidir. Bu web sitesinde dünyadaki bazı şehir veya ülkelerin şuanki hava durumu istatistiklerinin öğrenilmesi amaçlanmıştır. Hava durumu istatistikleri ise bir api aracılığıyla bir veritabanından alınmıştır. Bu web site responsive yapıda bir web sitesidir. Web site yüklendiğinde ilk İstanbul'un hava durumu bilgileri çıkacaktır. Web sitesinin yukarısındaki 5 şehir adına tıklandığında tıklanılan şehrin verileri ekrana basılır. İstenirse arama kutusuna istenilen şehir veya ülke yazılıp büyütece tıklanınca o yerle ilgili hava durumu bilgilerine ulaşılabilir. Eğer kullanıcı izin verirse büyütecin yanındaki konum düğmesine basıldığında kullanıcının bulunduğu şehrin hava durumu bilgileri ekrana basılacaktır. Aşağıda bu projenin nasıl çalıştığı gösterilmiştir.
+
 ![weather app gif](https://github.com/BoraBayraktar1/weather_app_projesi/assets/145857614/9c54bc08-0087-4633-9f56-540204c38a13)
